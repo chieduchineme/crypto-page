@@ -6,9 +6,9 @@ const BulletForGraphs = (props) => {
       <>
         {props.coinInfo !== null && (
           <ul style={{position: "relative"}}>
-            <li style={{marginBottom:"-12.5em", marginLeft:"6em", fontWeight:"bold" }} className={styles.red_bullet}>1 {props.symbol}= $ {props.price}</li>
+            <li style={{marginBottom:"-14.5em", marginLeft:"6em", fontWeight:"bold" }} className={styles.red_bullet}>1 {props.symbol}= $ {props.price}</li>
 
-          <div style={{display:"flex", flexDirection:"row", marginTop:"-4em",marginBottom:"8em", marginLeft:"6em" }} className={styles.bullet_list}>
+          <div style={{display:"flex", flexDirection:"row", marginTop:"-4em",marginBottom:"4em", marginLeft:"6em" }} className={styles.bullet_list}>
             <li  style={{ marginRight:"4em"  }} className={styles.green_bullet}>Lower: {props.highestPriceValue}</li>
             <li className={styles.orange_bullet}>Higher: {props.lowestPriceValue}</li>
           </div>
