@@ -23,6 +23,7 @@ const BuySell = (props) => {
     return (
         <>
         <div className="centerItems">
+            {props.coinInfo != null && (
             <div className={styles.inRow}>
                 <BuySellButton 
                     imgUrl = {props.imgUrl} 
@@ -33,6 +34,7 @@ const BuySell = (props) => {
                     action="Sell" symbol={props.symbol} name={props.name}   
                 />
             </div>
+        )}
         </div>
         </>
     )
