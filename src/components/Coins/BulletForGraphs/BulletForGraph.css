@@ -10,7 +10,12 @@
     border-radius: 50%;
     background: green;
   }
-  
+.green_bullet{
+    color: green
+}
+ .orange_bullet {
+     color: red
+ }
 ul {
     font-size: small;
 }
