@@ -11,9 +11,11 @@
     background: green;
   }
 .green_bullet{
+    font-family: sans-serif ;
     color: green
 }
  .orange_bullet {
+     font-family: sans-serif;
      color: red
  }
 ul {
