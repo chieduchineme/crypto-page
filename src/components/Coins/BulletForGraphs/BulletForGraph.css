@@ -1,11 +1,9 @@
 /* Styles for the green bullet point */
 .bullet_list {
     /* list-style-type: none; */
+    margin-left: -200px;
     display: flex;
-    flex-direction:row; 
-    margin-top:-2em;
-    margin-bottom:10em; 
-    margin-left:6em
+    flex-direction: row;
 }
   
 .green_bullet::before {
@@ -13,12 +11,6 @@
     background: green;
   }
   
-.ul {
+ul {
     font-size: small;
-    position: relative;
-}
-.red_bullet {
-    margin-bottom: -6em; 
-    margin-left: 6em; 
-    font-weight: bold
 }
