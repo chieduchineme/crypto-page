@@ -29,7 +29,7 @@ const CoinPrice = (props) => {
         }
         style={{
           backgroundColor: priceIsUp ? "#e1f7e0" : "rgb(118 13 22)",
-          marginLeft: "12em",
+          marginLeft: "10em",
           color: "white",
           fontWeight: "bold",
           borderRadius: "20px",
