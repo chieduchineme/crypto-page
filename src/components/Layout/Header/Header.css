@@ -1,0 +1,22 @@
+/* Header.css */
+.left-arrow-icon {
+  /* margin-right: 30px; Add margin for spacing between the icons */
+  border: none;
+  background: transparent
+}
+
+
+.dropdown-toggle::after {
+  /* Hide the arrow down icon */
+  display: none !important;
+}
+
+.nameStyles {
+  margin: 0 8em;
+  font-weight: 800;
+  font-size:3vh
+}
+
+.headerBackground {
+  background-color: white;
+}

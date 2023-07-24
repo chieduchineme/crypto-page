@@ -1,0 +1,22 @@
+
+/* Header.module.css */
+.container {
+  display: flex; /* Use flexbox to create a horizontal layout */
+  flex-direction: row;
+/* Align the components to the start and end of the container */
+/* Center the items vertically in the container */
+  background-color: #333; /* Optional: Add a background color to the container */
+  padding: 10px; /* Optional: Add padding to the container */
+}
+
+
+
+.text {
+  color: #ddd;
+  text-align: center;
+  max-width: 302px;
+}
+
+.text h1 {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,27 @@
+.card {
+    background-color: white;
+    height: 100px;
+    width: 155px;
+    margin-bottom: 1rem;
+    border-radius: 4%;
+    transition: all ease 0.25s;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.4em;
+    border: none
+    /* padding-bottom: 0rem; */ 
+  }
+.inRow {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3.4em;
+  margin-top: 1em;
+}
+.rightCard {
+  border-right: 4em;
+}
+.imageSize {
+  width: 2em;
+  height: 2em;
+  margin: auto
+}

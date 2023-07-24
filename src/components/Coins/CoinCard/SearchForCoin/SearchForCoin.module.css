@@ -1,0 +1,20 @@
+/* .toggle-button {
+    margin-left: 2.2em;
+    margin-bottom: -2.5em;
+    position: relative;
+    color: #6f48eb;
+} */
+.myCalenders {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 6em;
+    width: 130px
+  }
+.names.expanded {
+/* overflow: hidden; */
+display: none;
+    /* visibility: hidden; */
+  }
+.names {
+    margin-top: 3em;
+  }

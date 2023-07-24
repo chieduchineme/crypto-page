@@ -1,0 +1,21 @@
+.logo {
+  height: 30px;
+  margin-right: 10px;
+}
+.name {
+  font-size: 0.8rem;
+  color: black;
+  margin-left: 16em;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.coin-info h2 {
+  margin-top: 0.4em;
+  font-size: 0.9em;
+}
+

@@ -1,0 +1,16 @@
+/* Styles for the green bullet point */
+.bullet_list {
+    /* list-style-type: none; */
+    margin-left: -200px;
+    display: flex;
+    flex-direction: row;
+}
+  
+.green_bullet::before {
+    border-radius: 50%;
+    background: green;
+  }
+  
+ul {
+    font-size: small;
+}
