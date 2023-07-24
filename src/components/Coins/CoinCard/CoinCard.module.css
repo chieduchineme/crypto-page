@@ -1,7 +1,7 @@
 .card {
   background-color: white;
-  height: 160px;
-  width: 370px;
+  height: 180px;
+  width: 340px;
   margin-bottom: 8rem;
   border-radius: 4%;
   transition: all ease 0.25s;
@@ -9,7 +9,7 @@
   padding-bottom: 0rem;
 }
 .expandedCard {
-  height: 200px; /* Set the height to 200px when the card is expanded */
+  height: 230px; /* Set the height to 200px when the card is expanded */
 }
 .centerItems {
   display: flex; 
