@@ -31,7 +31,7 @@ const fullPriceHistory = useMemo(() => (props.coinHistory?.prices ? props.coinHi
     <div>
     {props.coinInfo != null && (
       <>
-        <div style={{ marginTop: "6em", marginLeft: "4.0em" }}>
+        <div style={{ marginTop: "-6em", marginLeft: "4.0em" }}>
           <Chip
             label="Day"
             variant={time === 1 ? "filled" : "outlined"}
