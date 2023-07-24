@@ -10,6 +10,7 @@ import "./index.css";
 import { Form } from "react-bootstrap";
 import BulletForGraphs from "./components/Coins/BulletForGraphs/BulletForGraph";
 import BuySellButon from "./components/BuySellButtons/buySellButton";
+import { flattenObject } from "./services";
 
 const App = () => {
   const [search, setSearch] = useState("btc");
