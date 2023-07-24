@@ -133,13 +133,13 @@ const App = () => {
               search={search}
               setChosenCoin={setChosenCoin}
               handleSearchChange={handleSearchChange} />
-              <BulletForGraphs  lowestPriceValue={lowestPriceValue} highestPriceValue={highestPriceValue} 
-                symbol={coinDetails?.symbol.toUpperCase()} price={coinDetails?.current_price}  
-                coinInfo={homeData.filter((coin) => coin.id === chosenCoin)[0]}  />
-              <OrdinaryComponent
+            <OrdinaryComponent
                 coinHistory={coinData}
                 chosenCoin={chosenCoin}
                 coinInfo={homeData.filter((coin) => coin.id === chosenCoin)[0]} />
+            <BulletForGraphs  lowestPriceValue={lowestPriceValue} highestPriceValue={highestPriceValue} 
+                symbol={coinDetails?.symbol.toUpperCase()} price={coinDetails?.current_price}  
+                coinInfo={homeData.filter((coin) => coin.id === chosenCoin)[0]}  />
           </>
         )}
       </main>
