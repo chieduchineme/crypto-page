@@ -144,7 +144,8 @@ const App = () => {
           </>
         )}
       </main>
-      <BuySellButon imgUrl = {coinDetails?.image} symbol={coinDetails?.symbol} name={coinDetails?.name} />
+      <BuySellButon imgUrl = {coinDetails?.image} symbol={coinDetails?.symbol} name={coinDetails?.name}
+    coinInfo={homeData.filter((coin) => coin.id === chosenCoin)[0]} />
     </>
   );
 };
