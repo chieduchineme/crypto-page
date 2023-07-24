@@ -5,7 +5,7 @@ const BulletForGraphs = (props) => {
     return (
       <>
         <div>
-        {props.coinInfo !== null && (
+        {props.coinInfo != null && (
           <ul style={{position: "relative"}}>
             <li style={{marginBottom:"-10.5em", marginTop:"-4em", marginLeft:"6em", fontWeight:"bold" }} className={styles.red_bullet}>1 {props.symbol}= $ {props.price}</li>
 
