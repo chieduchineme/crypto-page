@@ -7,7 +7,7 @@ import Loader from "./components/UI/Loader/Loader";
 import CoinsGrid from "./components/Coins/CoinsGrid/CoinsGrid";
 import OrdinaryComponent from "./components/UI/Modal/AreaChart";
 import "./index.css";
-import { Form } from "react-bootstrap";
+import { Form , Col} from "react-bootstrap";
 import BulletForGraphs from "./components/Coins/BulletForGraphs/BulletForGraph";
 import BuySellButon from "./components/BuySellButtons/buySellButton";
 import { flattenObject } from "./services";
